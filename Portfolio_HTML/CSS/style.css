@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: rgb(89, 67, 63);
+}
+header {
+    color: rrgb(89, 67, 63);
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0; /* Cor cinza claro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra sutil (opcional) */
+}
+
+#sobre {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+footer {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 2rem; /* Espaço extra acima da linha */
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ===******* Estilos para os ícones ******=== */
+.contato-icones {
+    display: flex;
+    justify-content: left;
+    gap: 20px;  /* Espaço entre ícones */
+    padding: 1rem;
+}
+
+.icone {
+    width: 32px;  /* Tamanho ajustável */
+    height: 32px;
+    transition: transform 0.3s ease;  /* Efeito hover */
+}
+
+.icone:hover {
+    transform: scale(1.1);  /* Aumenta levemente ao passar o mouse. Seria bom fazer um teste depois pra ver se seria legal girar um pouco o ícone, como se fosse uma animação... */
+    opacity: 0.8;
+}
